@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+
+* {
+    font-family: 'Jura';
+    background-color: rgb(57, 57, 198);
+}
+h1 {
+    background-color: brown;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    width: 400px;
+    margin: auto;
+}
+
+.mybtns {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    font-weight: bold; 
+    /* width: 5%;  */
+    background-color: green;
+    
+}
+#triangle
+ {
+     border-bottom: 20px solid #fff;
+     border-left: 20x solid;
+}
+#triangle2 {
+    border-bottom: 20px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+input {
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.displayBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 70px;
+    height: 200px;
+    width: 300px;    
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: grey;
+}
